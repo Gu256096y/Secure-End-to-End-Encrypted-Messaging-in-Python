@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 import json
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
@@ -34,4 +34,5 @@ def handle_received_message(response, aes_key):
             print(f"Server Response: {response_data.get('message')}")
     except Exception as e:
         print(f"Error handling received message: {e}")
+
 
