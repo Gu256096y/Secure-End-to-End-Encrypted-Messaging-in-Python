@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 import hashlib
 import struct
 
@@ -52,4 +52,5 @@ def parse_header(header):
         return op_code, sender_id, receiver_id, message_id, content_hash
     except Exception as e:
         raise ValueError(f"Failed to parse header: {e}")
+
 
