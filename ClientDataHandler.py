@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 import os
 from Crypto.PublicKey import RSA
 
@@ -28,4 +28,5 @@ def load_client_data(client_id):
                 aes_key_hex = data.split("AES_KEY:")[1].strip()
                 aes_key = bytes.fromhex(aes_key_hex)
                 return aes_key
+
     return None
