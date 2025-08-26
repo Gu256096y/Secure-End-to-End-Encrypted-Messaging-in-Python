@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On 
 from Protocol import create_message_header
 from ClientSecuredOperation import create_tls_connection
 
@@ -19,3 +19,4 @@ def send_acknowledgment(server_address_target, sender_id_target):
 
     except Exception as e:
         print(f"Error sending acknowledgment: {e}")
+
