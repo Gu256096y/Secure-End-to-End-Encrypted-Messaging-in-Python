@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 import json
 from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.PublicKey import RSA
@@ -216,3 +216,4 @@ def handle_acknowledgment(header):
 
     except Exception as e:
         print(f"Error handling acknowledgment: {e}")
+
