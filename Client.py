@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 #A main function for a client
 
 from ClientRequestHandler import *
@@ -74,4 +74,5 @@ def interactive_client():
 
 if __name__ == "__main__":
     interactive_client()
+
 
