@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On 
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.Util.Padding import pad
 from ClientSecuredOperation import *
@@ -84,5 +84,6 @@ def send_receive_message_request(server_address_target, sender_id_target):
                 print("No response received from server for op_code 3.")
     except Exception as e:
         print(f"Error sending receive message: {e}")
+
 
 
