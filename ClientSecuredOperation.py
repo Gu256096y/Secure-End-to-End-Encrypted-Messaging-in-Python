@@ -1,4 +1,4 @@
-#Guy Rav On - 315044743
+#Guy Rav On
 import socket
 import ssl
 
@@ -11,5 +11,6 @@ def create_tls_connection(server_address):
     sock = socket.create_connection(server_address)
     tls_sock = context.wrap_socket(sock, server_hostname=server_address[0])
     return tls_sock
+
 
 
